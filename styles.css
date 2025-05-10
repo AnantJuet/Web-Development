@@ -1,0 +1,60 @@
+/* Center the whole page */
+body {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card-style container */
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Input fields */
+input[type="number"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Button */
+button {
+  background-color: #667eea;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #5a67d8;
+}
